@@ -1,8 +1,5 @@
 
-
-![images](/Users/anupam7936/Downloads/images.jpg)
-
-
+![images.jpg](https://github.com/anupam3693/eip2/blob/master/images.jpg?raw=true)
 
 ## Convolution
 
@@ -21,9 +18,7 @@ A filter/kernel is known as feature extractor or feature indentifier. It is used
 
 ###Epochs
 
-Considering the training data has one image to train on.
 An Epoch is one cycle when feature extraction is completed using lets say 3x3 filter on the given image. This process can be repeated many number of times, so if its repeated 2nd time then epoch is 2, 3 times then epoch is 3 and so on.  More number of epochs make sure that better feature capturing is done hence minimal amount of data loss which is not evident. This helps in proving good prediction as it uses same channels but with feature having more information.
-If you have n number of images in training set,1 epoch is completed when a model has gone through all the images in training set for the first time..
 
 ###1x1 convolution
 
@@ -33,7 +28,7 @@ Consider 28x28 image with 20 features, if we apply 1x1x10 filter then the output
 
 ###3x3 convolution
 
-3X3 Convolution is a process of extracting features from an image of size lets say HeightxWidthxDepth using 3x3 Filter. This reduces the dimension of the source image by 2 every consecutive layer.
+3X3 Convolution is a process of extracting features from an image of size lets say HxWxD using 3x3 Filter. This reduces the dimension of the source image by 2 every consecutive layer.
 
 Consider 28x28 image with 20 features, if we apply 3x3x10 filter then the next layer output will result into 26x26x10 channels and so on. 
 
@@ -41,6 +36,7 @@ Consider 28x28 image with 20 features, if we apply 3x3x10 filter then the next l
 | -------- | ------ | -------- |
 | 28x28x20 | 3x3x10 | 26x26x10 |
 
+![seven.png](https://github.com/anupam3693/eip2/blob/master/seven.png?raw=true)
 
 
 ###Feature Maps
