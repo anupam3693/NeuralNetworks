@@ -44,16 +44,16 @@ Below are the **hyperparameters and parameters** value mentioned for two experim
 | horizontal_flip      | True                                                         | -                                                            | True                                                  | -                                                      |
 | LR Method            | LearningRateScheduler                                        | LearningRateScheduler                                        | CyclicLR                                              | CyclicLR                                               |
 |                      | lrate = 0.1<br/>    if epoch > 40:
-        lrate = 0.01
-    elif epoch > 75:
-        lrate = 0.001 
-    elif epoch > 100:
-        lrate = 0.0001 | lrate = 0.1<br/>    if epoch > 40:
-        lrate = 0.01
-    elif epoch > 75:
-        lrate = 0.001 
-    elif epoch > 100:
-        lrate = 0.0001 | base_lr=0.1
+​        lrate = 0.01
+​    elif epoch > 75:
+​        lrate = 0.001 
+​    elif epoch > 100:
+​        lrate = 0.0001 | lrate = 0.1<br/>    if epoch > 40:
+​        lrate = 0.01
+​    elif epoch > 75:
+​        lrate = 0.001 
+​    elif epoch > 100:
+​        lrate = 0.0001 | base_lr=0.1
 max_lr=0.3
 step_size=2000
 scale_mode='cycle' | base_lr=0.01
@@ -77,11 +77,11 @@ Exp1_Run1 :
 
 
 
-Exp1_Run1:
+Exp2_Run1:
 
 ​	https://github.com/anupam3693/eip2/blob/master/Anupam_Kumar_EIP2_Batch2_Assignment_DNST_CIFAR10_AUG_exp2_run1.ipynb
 
-Exp1_Run2 ( weight loaded from Exp1_Run1 ) :
+Exp2_Run2 ( weight loaded from Exp1_Run1 ) :
 
 ​	https://github.com/anupam3693/eip2/blob/master/Anupam_Kumar_EIP2_Batch2_Assignment_DNST_CIFAR10_AUG_exp2_run2.ipynb
 
