@@ -6,9 +6,9 @@ Below are the **hyperparameters and parameters** value mentioned for two experim
 
 (Exp1_Run1 & Exp1_Run2) :
 
-​	Training Accuracy achieved : **98.68% (0.9868)**
+​	Training Accuracy achieved : **97.86% (0.9786)**
 
-​	Test Accuracy achieved : **93.20% (0.9320)**
+​	Test Accuracy achieved : **93.43% (0.9343)**
 
 ​	Total Number of epochs: **74**
 
